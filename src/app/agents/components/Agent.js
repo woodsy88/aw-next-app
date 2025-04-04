@@ -64,7 +64,7 @@ export default function Agent() {
       let updatedMessages = [...messages]
 
       for (let i = 0; i < MAX_ITERATIONS; i++) {
-        const response = await fetch("https://openai-api-worker.andrewwoods88.workers.dev/chat-turbo", {
+        const response = await fetch(process.env.NEXT_PUBLIC_OPENAI_API_ENDPOINT || "https://openai-api-worker.andrewwoods88.workers.dev/chat-turbo", {
           method: "POST",
           body: JSON.stringify(updatedMessages)
         })
