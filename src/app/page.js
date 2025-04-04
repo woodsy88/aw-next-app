@@ -7,11 +7,11 @@ export default function Home() {
   const tools = [
     { title: "Language Translator", description: "Translate any language", link: "/translator" },
     { title: "Stock Tips", description: "Description for Tool 2", link: "/stock-tips" },
-    { title: "Tool 3", description: "Description for Tool 3", link: "#" },
-    { title: "Tool 4", description: "Description for Tool 4", link: "#" },
-    { title: "Tool 5", description: "Description for Tool 5", link: "#" },
-    { title: "Tool 6", description: "Description for Tool 6", link: "#" },
-    { title: "Tool 7", description: "Description for Tool 7", link: "#" },
+    { title: "Hugging Face", description: "Description for Tool 3", link: "/hugging-face" },
+    { title: "Transformers.js", description: "Description for Tool 4", link: "/transformers-js" },
+    { title: "Embeddings", description: "Description for Tool 5", link: "/embeddings" },
+    { title: "Movie Finder", description: "Description for Tool 6", link: "/movie-finder" },
+    { title: "Weather Agent", description: "Description for Tool 7", link: "/agents" },
     { title: "Tool 8", description: "Description for Tool 8", link: "#" },
     { title: "Tool 9", description: "Description for Tool 9", link: "#" },
   ];
